@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from '../Navigation';
 
 function Header(props) {
     const {
@@ -12,28 +13,22 @@ function Header(props) {
         setResumeSelected
     } = props
 
+
     return (
         <header className='flex-row'>
             <h1>
                 <a data-testid='link' href='/react-portfolio'>Allyson McGrath
                 </a>
             </h1>
-            <nav>
-                <ul className='flex-row' id='nav-list'>
-                    <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
-                            <span onClick={() => {setContactSelected(false); setAboutSelected(true); setPortfolioSelected(false); setResumeSelected(false)}}>About Me</span>
-                    </li>                    
-                    <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
-                            <span onClick={() => {setContactSelected(false); setAboutSelected(false); setPortfolioSelected(true); setResumeSelected(false)}}>Portfolio</span>                    
-                            </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => {setContactSelected(true); setAboutSelected(false); setPortfolioSelected(false); setResumeSelected(false)}}>Contact</span>
-                    </li>
-                    <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
-                        <span onClick={() => {setContactSelected(false); setAboutSelected(false); setPortfolioSelected(false); setResumeSelected(true)}}>Resume</span>
-                    </li>
-                </ul>
-            </nav>
+                <Navigation
+                        aboutSelected={aboutSelected}
+                        setAboutSelected={setAboutSelected}
+                        contactSelected={contactSelected}
+                        setContactSelected={setContactSelected}
+                        setPortfolioSelected={setPortfolioSelected}
+                        portfolioSelected={portfolioSelected}
+                        resumeSelected={resumeSelected}
+                        setResumeSelected={setResumeSelected}></Navigation>
         </header>
     )
 }
