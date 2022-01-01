@@ -4,7 +4,7 @@ import headshot from '../../assets/images/mcgrathphoto.jpg'
 function About() {
 
     return (
-        <section className='my-5'>
+        <section className='my-5 about-me'>
             <h1 id='about'>About Me</h1>
             <div className='flex-row'>
                 <img className="img-fluid" id='headshot' src={headshot} alt="headshot of Allyson McGrath" />

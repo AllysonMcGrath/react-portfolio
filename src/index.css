@@ -286,7 +286,10 @@ a {
 #headshot {
   height: 200px;
   width: auto;
-  
+}
+
+.about-me p {
+  padding-top: 5px;
 }
 
 /* footer */
@@ -326,6 +329,10 @@ footer img:hover {
 iframe {
   width: 800px;
   height: 800px;
+}
+
+.resume li {
+  list-style: circle;
 }
 
 /* projects page */
