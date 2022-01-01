@@ -303,6 +303,7 @@ footer {
 .maincontent {
   min-height: 100%;
   display: flex;
+  width: 100%;
 }
 
 footer div .flex-row{
@@ -322,6 +323,24 @@ footer img {
 
 footer img:hover {
   opacity: 100%;
+}
+
+/* contact page */
+
+#contact-form {
+  width: 100%
+}
+
+#contact-form label {
+  display: block;
+  padding-top: 10px;
+}
+
+#contact-form textarea {
+  width: 80%;
+}
+.contact {
+  width: 100%;
 }
 
 /* resume page */
