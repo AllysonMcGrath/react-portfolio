@@ -6,12 +6,12 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #426ab4;
+  --secondary: #f5fce6;
   --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --light: #0e0a0a;
+  --dark: #A53F2B;
   --darker: #111111;
-  --error: rgb(228, 46, 1);
+  --error: rgb(29, 23, 22);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: #494949;
+  background: #CCC9A1;
   color: var(--light);
   font-family: Arial, Helvetica, sans-serif;
 
@@ -278,8 +278,13 @@ a {
 	
 }
 
+h2 {
+  font-weight: bold;
+}
+
 .navActive {
   color: var(--secondary);
+  text-decoration: underline;
 }
 
  /* about me page */
@@ -354,10 +359,14 @@ iframe {
   list-style: circle;
 }
 
+.resume a {
+  color: var(--dark);
+}
+
 /* projects page */
 
 .work-card {
-  background-color: #9c9c9c;
+  background-color: #f5fce6;
   width: 400px;
   margin: 10px;
   border-radius: 5px;
@@ -371,6 +380,10 @@ iframe {
 .work-card p {
   padding: 5px;
   text-align: center;
+}
+
+.work-card a {
+  color: var(--dark);
 }
 
 .work-card-image {

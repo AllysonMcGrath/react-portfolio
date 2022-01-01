@@ -5,7 +5,7 @@ function About() {
 
     return (
         <section className='my-5 about-me'>
-            <h1 id='about'>About Me</h1>
+            <h2 id='about'>About Me</h2>
             <div className='flex-row'>
                 <img className="img-fluid" id='headshot' src={headshot} alt="headshot of Allyson McGrath" />
                 <p>Welcome to my portfolio! Here you will find examples of my work in web development, my resume, and further information for how to contact me.
