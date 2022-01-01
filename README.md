@@ -65,7 +65,7 @@ When displaying correctly, the website should look like this:
 ![Site about Allyson McGrath with about me, portfolio, contact, and resume links ](./src/assets/images/reactportfoliosite.JPG)
 
 
-You can find the deployed app on Heroku [here](https://allysonmcgrath.github.io/react-portfolio/).
+You can find the deployed app [here](https://allysonmcgrath.github.io/react-portfolio/).
 
 
 
