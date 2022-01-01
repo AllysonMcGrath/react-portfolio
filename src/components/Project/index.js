@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Projects (props) {
+function Project (props) {
     const projectsList = [
         {
           name: 'E-Commerce Back End',
@@ -71,8 +71,6 @@ function Projects (props) {
       
 
       return (
-        <div className='projects'>
-          <h2>Portfolio</h2>
           <div className="flex-row">
             {projectsList.map((project) => (
               <div className="work-card" key={project.name}>
@@ -84,8 +82,7 @@ function Projects (props) {
               </div>
             ))}
           </div>
-        </div>
       );
 }
 
-export default Projects;
+export default Project;

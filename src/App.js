@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import About from './components/About';
 import Header from './components/Header'
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
@@ -31,7 +31,7 @@ function App() {
      <main  className='maincontent'>
         {
           !contactSelected && !aboutSelected && !resumeSelected? (
-          <Projects></Projects>
+          <Portfolio></Portfolio>
           ) :
           contactSelected && !aboutSelected ? (
             <ContactForm></ContactForm>
@@ -51,16 +51,3 @@ function App() {
 
 
 export default App;
-    //  <main>
-    //     {
-    //       !contactSelected && !aboutSelected ? (
-    //       <Projects></Projects>
-    //       ) :
-    //       contactSelected && !aboutSelected ? (
-    //         <ContactForm></ContactForm>
-    //       ) :
-    //       (
-    //         <About></About>
-    //       )
-    //     }
-    //  </main>
