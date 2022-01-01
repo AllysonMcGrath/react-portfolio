@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #5e92f1;
+  --secondary: #426ab4;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -357,7 +357,7 @@ iframe {
 /* projects page */
 
 .work-card {
-  background-color: #c5c5c5;
+  background-color: #9c9c9c;
   width: 400px;
   margin: 10px;
   border-radius: 5px;
