@@ -15,7 +15,7 @@ function Header(props) {
     return (
         <header className='flex-row'>
             <h1>
-                <a data-testid='link' href='/'>Allyson McGrath
+                <a data-testid='link' href='/react-portfolio'>Allyson McGrath
                 </a>
             </h1>
             <nav>
