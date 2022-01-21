@@ -3,6 +3,14 @@ import React from 'react';
 
 function Project (props) {
     const projectsList = [
+      {
+        name: 'Gale Weather App',
+        concepts: 'MongoDB, React, HTML, CSS, Javascript',
+        githubLink: 'https://github.com/AllysonMcGrath/gale-weather-app',
+        deployedLink: 'https://enigmatic-everglades-42855.herokuapp.com/',
+        image: 'galesite.JPG',
+        altText: 'Sign-in page for weather site'
+      },
         {
           name: 'E-Commerce Back End',
           concepts: 'ORM, Express.js, MySQL, Sequelize.js',
