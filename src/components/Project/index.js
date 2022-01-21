@@ -8,7 +8,7 @@ function Project (props) {
         concepts: 'MongoDB, React, HTML, CSS, Javascript',
         githubLink: 'https://github.com/AllysonMcGrath/gale-weather-app',
         deployedLink: 'https://enigmatic-everglades-42855.herokuapp.com/',
-        image: 'galesite.jpg',
+        image: 'galeweathersite.jpg',
         altText: 'Sign-in page for weather site'
       },
         {
