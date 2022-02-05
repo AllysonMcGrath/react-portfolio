@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.db66412a.css",
-    "main.js": "/react-portfolio/static/js/main.d254e9e7.js",
+    "main.js": "/react-portfolio/static/js/main.a010be6e.js",
     "static/js/787.cf250828.chunk.js": "/react-portfolio/static/js/787.cf250828.chunk.js",
     "static/media/hero2.png": "/react-portfolio/static/media/hero2.a1bf654f7d0595f21387.png",
     "static/media/hero3.png": "/react-portfolio/static/media/hero3.492029831bde30d084fc.png",
@@ -19,13 +19,16 @@
     "static/media/tbdsite.jfif": "/react-portfolio/static/media/tbdsite.da6674cf82bf1e971bb4.jfif",
     "static/media/galeweathersite.jpg": "/react-portfolio/static/media/galeweathersite.3a5cea576d2235de4c49.jpg",
     "static/media/gititdonesite.jfif": "/react-portfolio/static/media/gititdonesite.05645a03c73edf9850b5.jfif",
+    "static/media/foodfestivalsite.JPG": "/react-portfolio/static/media/foodfestivalsite.9d378292efa487cdbbd1.JPG",
     "static/media/weathersite.jfif": "/react-portfolio/static/media/weathersite.a16657904a6e501e1fab.jfif",
     "static/media/budgettracker.jfif": "/react-portfolio/static/media/budgettracker.131a81a1163a51da9925.jfif",
     "static/media/taskmasterprosite.jfif": "/react-portfolio/static/media/taskmasterprosite.f7adac753b543d85870b.jfif",
     "static/media/employeetracker.jfif": "/react-portfolio/static/media/employeetracker.1eab142bcf2be3e8fcc4.jfif",
     "static/media/taskinatorsite.jfif": "/react-portfolio/static/media/taskinatorsite.9e109a6dca84ae0c374c.jfif",
+    "static/media/socialnetworkpic.JPG": "/react-portfolio/static/media/socialnetworkpic.df7e5c62c2787d6140b8.JPG",
     "static/media/schedulersite.jfif": "/react-portfolio/static/media/schedulersite.4abe0c90161e6f7b202f.jfif",
     "static/media/twitter-icon.png": "/react-portfolio/static/media/twitter-icon.11a2903a0b1c5c0635d4.png",
+    "static/media/electiondatabasepic.JPG": "/react-portfolio/static/media/electiondatabasepic.126ac6788f695aec0094.JPG",
     "static/media/runbuddy.JPG": "/react-portfolio/static/media/runbuddy.1db0af2e94e7c1c86489.JPG",
     "static/media/teammanager.jfif": "/react-portfolio/static/media/teammanager.b6f9afb4073fe6ed5785.jfif",
     "static/media/regexgistpic.JPG": "/react-portfolio/static/media/regexgistpic.4d9cdece72e4368ef89a.JPG",
@@ -44,11 +47,11 @@
     "static/media/linkedin-icon.png": "/react-portfolio/static/media/linkedin-icon.38dec86db3dd63436a06.png",
     "index.html": "/react-portfolio/index.html",
     "main.db66412a.css.map": "/react-portfolio/static/css/main.db66412a.css.map",
-    "main.d254e9e7.js.map": "/react-portfolio/static/js/main.d254e9e7.js.map",
+    "main.a010be6e.js.map": "/react-portfolio/static/js/main.a010be6e.js.map",
     "787.cf250828.chunk.js.map": "/react-portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db66412a.css",
-    "static/js/main.d254e9e7.js"
+    "static/js/main.a010be6e.js"
   ]
 }
