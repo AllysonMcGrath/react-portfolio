@@ -33,7 +33,7 @@ function Project(props) {
       concepts: 'Back-End, PWA, Service Workers',
       githubLink: 'https://github.com/AllysonMcGrath/food-festival',
       deployedLink: 'https://allysonmcgrath.github.io/food-festival/',
-      image: 'pizzahuntsite.png',
+      image: 'foodfestivalsite.JPG',
       altText: 'Site with form to order pizza'
     },
     {
@@ -41,8 +41,8 @@ function Project(props) {
       concepts: 'Back-End, NoSQL, MongoDB, Mongoose',
       githubLink: 'https://github.com/AllysonMcGrath/social-network-api',
       deployedLink: 'https://watch.screencastify.com/v/bYmx58b7169wSDqu1Skj',
-      image: 'pizzahuntsite.png',
-      altText: 'Site with form to order pizza'
+      image: 'socialnetworkpic.JPG',
+      altText: 'Insomnia API routes for users, thoughts, and friends'
     },
     {
       name: 'Pizza Hunt Site',
@@ -51,14 +51,6 @@ function Project(props) {
       deployedLink: 'https://mcgrath-pizza-hunt.herokuapp.com/',
       image: 'pizzahuntsite.png',
       altText: 'Site with form to put in a pizza recipe'
-    },
-    {
-      name: 'RPG Chat Site',
-      concepts: 'Fullstack, Node.js, Express.js, HTML, CSS, MySQL, Sequelize, Group Project',
-      githubLink: 'https://github.com/AllysonMcGrath/fullstack-rpg-chat-site',
-      deployedLink: 'https://tavern-cafe-project.herokuapp.com/',
-      image: 'taverncafe.JPG',
-      altText: 'Site with forum posts'
     },
     {
       name: 'Regex Validation Tutorial',
@@ -97,7 +89,7 @@ function Project(props) {
       concepts: 'Back-End, SQL, MySQL',
       githubLink: 'https://github.com/AllysonMcGrath/u-develop-it.git',
       deployedLink: 'https://github.com/AllysonMcGrath/u-develop-it#readme',
-      image: 'notetakersite.png',
+      image: 'electiondatabasepic.JPG',
       altText: 'Site to with place to write notes'
     },
     {
@@ -145,7 +137,7 @@ function Project(props) {
       concepts: 'Front-End, HTML, CSS, JavaScript, Node.js',
       githubLink: 'https://github.com/AllysonMcGrath/portfolio-generator',
       deployedLink: 'https://allysonmcgrath.github.io/portfolio-generator/',
-      image: 'portgensite.jfif',
+      image: 'portgensite.jpg',
       altText: 'Site with about section and boxes with github project info and links'
     },
     {
