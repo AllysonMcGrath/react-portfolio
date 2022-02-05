@@ -236,10 +236,12 @@ function Project(props) {
       {projectsList.map((project) => (
         <div className="work-card" key={project.name}>
           <h3 className="work-card-title">{project.name}</h3>
+          <div className='img-padding'>
           <img className="img-fluid work-card-image" src={require(`../../assets/images/${project.image}`)} alt={project.altText} key={project.name} />
+          </div>
+          <a href={project.githubLink} target="_blank" rel='noreferrer'><button className='project-link'>Github Repo</button></a>
+          <a href={project.deployedLink} target="_blank" rel='noreferrer'><button className='project-link'>Deployed App</button></a>
           <p>Concepts: {project.concepts}</p>
-          <p><a href={project.githubLink} target="_blank" rel='noreferrer'>GithubRepo</a></p>
-          <p><a href={project.deployedLink} target="_blank" rel='noreferrer'>Deployed App</a></p>
         </div>
       ))}
     </div>

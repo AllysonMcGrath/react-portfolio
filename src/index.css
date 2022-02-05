@@ -5,7 +5,7 @@ main {
   padding: 50px 50px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #CCC9A1;
   --secondary: #f5fce6;
   --tertiary: #B12704;
   --light: #0e0a0a;
@@ -368,13 +368,16 @@ iframe {
 .work-card {
   background-color: #f5fce6;
   width: 400px;
-  margin: 10px;
+  margin: 15px;
   border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .work-card-title {
   text-align: center;
-  padding: 10px
+  padding: 20px 10px 5px 10px;
+  font-weight: bold;
+  font-family: 'DM Serif Display', serif;
 }
 
 .work-card p {
@@ -391,5 +394,32 @@ iframe {
   width: 100%;
   object-fit: cover;
   object-position: 0;
-  padding: 10px;
+  border: 2px solid var(--dark);
+  filter: brightness(50%);
 }
+
+.work-card-image:hover {
+  filter: brightness(100%);
+
+}
+
+.img-padding {
+  padding: 10px 10px 5px 10px;
+}
+
+.project-link {
+  width: 60%;
+  margin: 4px auto;
+  background-color: var(--dark);
+  color: #f5fce6;
+}
+
+.project-link a {
+  color: var(--secondary);
+  margin: auto;
+}
+
+button.project-link {
+  margin: 5px 70px;
+}
+
