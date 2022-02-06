@@ -29,7 +29,7 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Header>
      <main  className='maincontent'>
-     <div class="flex-wrapper">
+     <div className="flex-wrapper">
         {
           !contactSelected && !aboutSelected && !resumeSelected? (
           <Portfolio></Portfolio>

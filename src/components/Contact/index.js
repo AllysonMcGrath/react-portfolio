@@ -65,7 +65,7 @@ function ContactForm() {
     // );
 
     return (
-        <div class="container">
+        <div className="container">
             <section className='contact'>
                 <h2>Contact me</h2>
                 <p>Email: <a href="mailto:allyson.r.mcgrath@gmail.com">allyson.r.mcgrath@gmail.com</a></p>

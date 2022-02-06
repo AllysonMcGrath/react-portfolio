@@ -181,7 +181,7 @@ textarea {
 
 .container {
   width: 85%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -389,6 +389,15 @@ iframe {
 }
 
 /* projects page */
+
+.projects {
+  width: 100%;
+}
+
+.projects div .flex-row {
+  width: 100%;
+  padding: 0px;
+}
 
 .work-card {
   background-color: #f5fce6;
