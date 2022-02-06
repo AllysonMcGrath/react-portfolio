@@ -358,6 +358,14 @@ footer img:hover {
   width: 100%;
 }
 
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: var(--dark);
+}
+
 /* resume page */
 
 iframe {
