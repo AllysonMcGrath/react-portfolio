@@ -65,13 +65,15 @@ function ContactForm() {
     // );
 
     return (
-        <section className='contact'>
-            <h2>Contact me</h2>
-            <p>Email: <a href="mailto:allyson.r.mcgrath@gmail.com">allyson.r.mcgrath@gmail.com</a></p>
-            <p>Phone: (970)310-9075</p>
-            <p>LinkedIn: <a href='https://www.linkedin.com/in/allyson-mcgrath/'>allyson-mcgrath</a></p>
-        </section>
-    )
+        <div class="container">
+            <section className='contact'>
+                <h2>Contact me</h2>
+                <p>Email: <a href="mailto:allyson.r.mcgrath@gmail.com">allyson.r.mcgrath@gmail.com</a></p>
+                <p>Phone: (970)310-9075</p>
+                <p>LinkedIn: <a href='https://www.linkedin.com/in/allyson-mcgrath/'>allyson-mcgrath</a></p>
+            </section>
+         </div> 
+        )
 }
 
 export default ContactForm;

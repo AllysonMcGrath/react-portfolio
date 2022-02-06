@@ -4,7 +4,7 @@ import React from 'react';
 function Footer(props) {
 
     return (
-        <footer>
+        <footer className='footer'>
             <div className='flex-container'>
                 <div className='flex-row'>
                     <a href='https://www.linkedin.com/in/allyson-mcgrath-4a43b970/' target='_blank' rel='noreferrer'><img src={require('../../assets/images/linkedin-icon.png')} alt='linkedin icon' /></a>

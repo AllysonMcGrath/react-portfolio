@@ -316,10 +316,16 @@ footer {
   border-top: 4px solid #7e2f20;
 }
 
-.maincontent {
+/* .maincontent {
   min-height: 100%;
   display: flex;
   width: 100%;
+} */
+.flex-wrapper {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 footer div .flex-row{

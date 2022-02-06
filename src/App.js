@@ -29,6 +29,7 @@ function App() {
         setResumeSelected={setResumeSelected}
       ></Header>
      <main  className='maincontent'>
+     <div class="flex-wrapper">
         {
           !contactSelected && !aboutSelected && !resumeSelected? (
           <Portfolio></Portfolio>
@@ -43,6 +44,7 @@ function App() {
             <About></About>
           )
         }
+        </div>
      </main>
      <Footer></Footer>
    </div>
