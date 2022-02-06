@@ -300,6 +300,7 @@ h1 {
 #headshot {
   height: 200px;
   width: auto;
+  border: 2px solid var(--dark);
 }
 
 .about-me p {
