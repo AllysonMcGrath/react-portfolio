@@ -93,6 +93,7 @@ a:hover {
 
 header {
   background: var(--dark);
+  border-bottom: 4px solid #7e2f20;
 }
 
 header h1 {
@@ -280,12 +281,20 @@ a {
 
 h2 {
   font-weight: bold;
+  font-family: 'DM Serif Display', serif;
 }
 
 .navActive {
   color: var(--secondary);
   text-decoration: underline;
 }
+
+/* navigation */
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+}
+
 
  /* about me page */
 #headshot {
@@ -303,6 +312,7 @@ footer {
   height: 100px;
   background-color: var(--dark);
   flex: 0;
+  border-top: 4px solid #7e2f20;
 }
 
 .maincontent {
@@ -377,7 +387,7 @@ iframe {
   text-align: center;
   padding: 20px 10px 5px 10px;
   font-weight: bold;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Open Sans', serif;
 }
 
 .work-card p {
