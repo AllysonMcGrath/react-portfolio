@@ -10,7 +10,7 @@ function Resume() {
                 <div className='resume-content'>                        
 
                     <div className='resume-info'>
-                        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSljJk0b1yJ5Ife4DnEXJBJe3n0lRqwmimVumXZrobzNKX_gwlTL2yYNa6HGB4dqdglEH7jjWEkyOaN/pub?embedded=true"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1sTah8Wd7oAO6AfX36GN5pPi-1vjhU1-A/preview" allow="autoplay"></iframe>                    
                     </div>
                     <div className='proficiencies-work-card'>
                         <h4 className='proficiencies-title'>Proficiencies:</h4>
