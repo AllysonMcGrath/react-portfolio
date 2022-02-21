@@ -300,11 +300,21 @@ h1 {
 #headshot {
   height: 200px;
   width: auto;
+  min-width: 150px;
   border: 2px solid var(--dark);
 }
 
 .about-me p {
   padding-top: 5px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-item {
+  padding: 10px;
+  display: inline-block;
 }
 
 /* footer */
